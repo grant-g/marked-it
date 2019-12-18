@@ -33,7 +33,7 @@ console.log(result.html.text);
 	processAttributes: true,
 	processFrontMatter: true,
 	variablesMap: {},
-	
+
 	/* the following TOC generation options are subject to change */
 	tocJSON: false,
 	tocDepth: Infinity
@@ -84,8 +84,8 @@ All extensions in this section receive a *data* object containing:
 `domToHtml(dom, options)`
 > A function that returns a DOM representation of an HTML string.
 >
-> *options*:  
->> *xmlMode*: <boolean>  
+> *options*:
+>> *xmlMode*: <boolean>
 >> *decodeEntities*: <boolean>
 
 `domToInnerHtml(string, options)`
@@ -96,24 +96,24 @@ All extensions in this section receive a *data* object containing:
 
 #### HTML Generation extension points
 
-> *html.onHeading*  
-> *html.onCode*  
-> *html.onBlockquote*  
-> *html.onHtml*  
-> *html.onHr*  
-> *html.onList*  
-> *html.onListItem*  
-> *html.onParagraph*  
-> *html.onTable*  
-> *html.onTablerow*  
-> *html.onTablecell*  
-> *html.onStrong*  
-> *html.onEmphasis*  
-> *html.onCodespan*  
-> *html.onLinebreak*  
-> *html.onDel*  
-> *html.onLink*  
-> *html.onImage*  
+> *html.onHeading*
+> *html.onCode*
+> *html.onBlockquote*
+> *html.onHtml*
+> *html.onHr*
+> *html.onList*
+> *html.onListItem*
+> *html.onParagraph*
+> *html.onTable*
+> *html.onTablerow*
+> *html.onTablecell*
+> *html.onStrong*
+> *html.onEmphasis*
+> *html.onCodespan*
+> *html.onLinebreak*
+> *html.onDel*
+> *html.onLink*
+> *html.onImage*
 
 ### TOC Generation extensions
 
@@ -130,8 +130,8 @@ This extension receives a *data* object containing:
 `domToHtml(dom, options)`
 > A function that returns a DOM representation of an HTML string.
 >
-> *options*:  
->> *xmlMode*: <boolean>  
+> *options*:
+>> *xmlMode*: <boolean>
 >> *decodeEntities*: <boolean>
 
 `domToInnerHtml(string, options)`
